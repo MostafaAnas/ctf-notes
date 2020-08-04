@@ -33,3 +33,9 @@ while changed:
 ## Reverse Engineering
 ## Crypto
 
+## Misc/various 
+#### Raise an error with the flag (python)
+Ex: `raise NameError(open('flag.txt','r').read(50))`
+
+#### No output on the shell?
+try redirection ex: `ls 1>&0`
