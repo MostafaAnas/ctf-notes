@@ -27,7 +27,8 @@ while changed:
     		break
 ```
 
-
+## Forensics
+..* .docx file ? try open it as zip archive  
 
 
 ## Reverse Engineering
