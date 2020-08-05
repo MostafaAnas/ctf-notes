@@ -33,6 +33,23 @@ while changed:
 
 ## Reverse Engineering
 ## Crypto
+#### solve RSA
+
+
+```
+from Crypto.Util.number import inverse,long_to_bytes
+
+p = 
+q = 
+e =
+ct = 
+
+n = p * q
+phi = (p - 1) * (q - 1)
+d = inverse(e,phi)
+plain = pow(ct,d,n)
+print(long_to_bytes(plain))
+```
 
 ## Misc/various 
 #### Raise an error with the flag (python)
