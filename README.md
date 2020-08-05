@@ -50,7 +50,7 @@ d = inverse(e,phi)
 plain = pow(ct,d,n)
 print(long_to_bytes(plain))
 ```
-
+[cool RSA write-ups](https://github.com/W3rni0/RACTF_2020) 
 ## Misc/various 
 #### Raise an error with the flag (python)
 Ex: `raise NameError(open('flag.txt','r').read(50))`
