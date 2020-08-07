@@ -1,5 +1,8 @@
 # CTF-Notes
 ## Web
+* PHP type juggling
+`md5( 0e215962017 ) ---> 0e291242476940776845150308577824`
+ 
 ## Pwn
 ##### Timing Attack poc 
 ```
@@ -28,7 +31,7 @@ while changed:
 ```
 
 ## Forensics
-..* .docx file ? try open it as zip archive  
+* .docx file ? try open it as zip archive  
 
 
 ## Reverse Engineering
